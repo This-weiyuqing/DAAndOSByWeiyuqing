@@ -54,6 +54,20 @@
 			[
 				0
 			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
 		}
 	],
 	"id" : "DAAndOSByWeiyuqing::@6890427a1f51a3e7e1df",
@@ -74,7 +88,7 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
 	"name" : "DAAndOSByWeiyuqing",
 	"nameOnDisk" : "DAAndOSByWeiyuqing.exe",
@@ -90,7 +104,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -104,7 +119,14 @@
 		},
 		{
 			"backtrace" : 1,
+			"compileGroupIndex" : 1,
 			"path" : "List/listCode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "List/fas.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
