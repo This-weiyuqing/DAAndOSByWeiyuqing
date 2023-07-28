@@ -3,4 +3,4 @@ project(DAAndOSByWeiyuqing)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(DAAndOSByWeiyuqing main.c List/listCode.cpp List/fas.cpp)
+add_executable(DAAndOSByWeiyuqing main.c)

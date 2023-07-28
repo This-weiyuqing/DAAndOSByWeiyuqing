@@ -1,16 +1,13 @@
 D:\JetBrains\Toolbox\apps\CLion\ch-0\232.8660.186\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\CProject\DAAndOSByWeiyuqing -B D:\CProject\DAAndOSByWeiyuqing\cmake-build-debug
--- The C compiler identification is GNU 13.1.0
--- The CXX compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: D:/MSYS2/mingw64/bin/cc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: D:/MSYS2/mingw64/bin/c++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done (5.7s)
--- Generating done (0.0s)
--- Build files have been written to: D:/CProject/DAAndOSByWeiyuqing/cmake-build-debug
+-- Configuring done (0.2s)
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    List/fas.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: DAAndOSByWeiyuqing
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

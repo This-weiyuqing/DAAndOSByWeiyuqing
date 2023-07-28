@@ -39,8 +39,29 @@ Status GetELem(SqList L, int i, Book &e) {
     return OK;
 }
 
-int LocateElem_Sq(SqList &L, double e){
-    for (int i =   0; i < L.length; ++i) {
-
+//search from sqlist
+int LocateElem_Sq(SqList &L, double e) {
+    for (int i = 0; i < L.length; ++i) {
+        if (L.elem[i].price == e) {
+            return i + 1;
+        }
+        return 0;
     }
+}
+
+//delete from sqlist
+Status ListDelete_Sq(SqList &L, int i) {
+    if ((i < 1) || (i > L.length)) {
+        return ERROR;
+    }
+    for (int j = i; j <= L.length; ++j) {
+        L.elem[j - 1] = L.elem[j];
+    }
+    return OK;
+}
+
+//insert to sqlist
+Status  ListInsert_Sq(SqList &L,int i,Book e){
+    LocateElem_Sq(L,e);
+
 }
